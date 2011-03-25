@@ -8,7 +8,8 @@ setup(
                                 #   'import foo'
     dependency_links = [],      # custom links to a specific project
     install_requires=[],
-    extras_require={},
+    extras_require={},      # optional features that other packages can require
+                            #   like 'helloworld[foo]'
     package_data = {},
     author="David Barnett",
     author_email = "davidbarnett2@gmail.com",
@@ -17,8 +18,9 @@ setup(
     keywords= "example documentation tutorial",
     url = "http://github.com/dbarnett/python-helloworld",
     entry_points = {
-        "console_scripts": [
+        "console_scripts": [        # command-line executables to expose
             "helloworld_in_python = helloworld.main:main",
-        ]
+        ],
+        "gui_scripts": []       # GUI executables (creates pyw on Windows)
     }
 )
