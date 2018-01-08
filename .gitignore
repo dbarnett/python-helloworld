@@ -1,2 +1,4 @@
 *.pyc
 /helloworld.egg-info
+
+.idea/*
