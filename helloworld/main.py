@@ -5,5 +5,6 @@ def main(argv=None):
         argv = sys.argv
 
     print "Hello, to my world"
+	print "I am a fucking genius"
 
     return 0
