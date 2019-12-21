@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 """main.py: console app which prints hello"""
 import sys
