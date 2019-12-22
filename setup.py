@@ -1,5 +1,5 @@
-import sys
-from setuptools import setup
+
+from distutils.core import setup
 
 setup(
     name = "helloworld",        # what you want to call the archive/egg
@@ -16,11 +16,11 @@ setup(
     description = "The familiar example program in Python",
     license = "BSD",
     keywords= "example documentation tutorial",
-    url = "http://github.com/dbarnett/python-helloworld",
+    url = "http://github.com/dbarnettpython-helloworld",
     entry_points = {
         "console_scripts": [        # command-line executables to expose
             "helloworld_in_python = helloworld.main:main",
         ],
-        "gui_scripts": []       # GUI executables (creates pyw on Windows)
+        "gui_scripts": []       # GUI exetables (creates pyw on Windows)
     }
 )
