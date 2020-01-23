@@ -1,5 +1,8 @@
 #!/usr/bin/env python
-from distutils.core import setup
+from setuptools import setup
+
+with open("README", 'r') as f:
+    long_description = f.read()
 
 setup(
     name = "helloworld",        # what you want to call the archive/egg
@@ -15,6 +18,7 @@ setup(
     author_email = "davidbarnett2@gmail.com",
     description = "The familiar example program in Python",
     license = "BSD",
+    long_description = long_description,
     keywords= "example documentation tutorial",
     url = "http://github.com/dbarnettpython-helloworld",
     entry_points = {
