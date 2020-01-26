@@ -1,7 +1,6 @@
-#!/usr/bin/env python
 from setuptools import setup
 
-with open("README", 'r') as f:
+with open("README.md", 'r') as f:
     long_description = f.read()
 
 setup(
@@ -25,6 +24,6 @@ setup(
         "console_scripts": [        # command-line executables to expose
             "helloworld_in_python = helloworld.main:main",
         ],
-        "gui_scripts": []       # GUI exetables (creates pyw on Windows)
+        "gui_scripts": []       # GUI executables (creates pyw on Windows)
     }
 )
