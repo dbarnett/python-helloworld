@@ -14,7 +14,7 @@ setup(
     author="David Barnett",
     author_email = "davidbarnett2@gmail.com",
     description = "The familiar example program in Python",
-    license = "BSD",
+    license = "Apache 2.0",
     keywords= "example documentation tutorial",
     url = "http://github.com/dbarnett/python-helloworld",
     entry_points = {
