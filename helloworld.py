@@ -1,6 +1,5 @@
-#!/usr/bin/env python
-# -*- encoding: UTF-8 -*-
-"""helloworld.py: calls on helloworld.main.main() function"""
+"""Top-level script to invoke helloworld implementation."""
+
 import sys
 
 import helloworld.main
