@@ -22,7 +22,7 @@ setup(
     description = "The familiar example program in Python",
     license = "Apache 2.0",
     keywords= "example documentation tutorial",
-    url = "http://github.com/dbarnettpython-helloworld",
+    url = "http://github.com/dbarnett/python-helloworld",
     entry_points = {
         "console_scripts": [        # command-line executables to expose
             "helloworld_in_python = helloworld.main:main",
