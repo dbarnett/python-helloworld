@@ -21,6 +21,6 @@ def main(argv=None):
     # ensures the user hasn't passed any other unrecognized arguments.
     parser.parse_args(argv[1:])
 
-    print("Hello, world")
+    print("Hello, world, I am dbarnet!")
 
     return 0
