@@ -20,7 +20,11 @@ def main(argv=None):
     # This just checks for the special --version and --help arguments and
     # ensures the user hasn't passed any other unrecognized arguments.
     parser.parse_args(argv[1:])
-
+    name="hulk"
     print("Hello, world, I am dbarnet!")
+    if name=="hulk":
+        print("I love natasha")
+    else:
+        print("I AM HULK!!!!")
 
     return 0
