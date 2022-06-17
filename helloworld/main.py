@@ -7,7 +7,7 @@ import helloworld
 
 
 parser = argparse.ArgumentParser(
-        description='A simple example program to print a friendly greeting.')
+        description='A simple example program to print a friendly greeting to my bro Majid.')
 parser.add_argument('--version', action='version',
         version='helloworld ' + helloworld.__version__)
 
