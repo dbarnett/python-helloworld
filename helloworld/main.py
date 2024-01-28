@@ -1,15 +1,12 @@
-"""Top-level implementation of the helloworld program."""
-
 import argparse
 import sys
 
 import helloworld
+import parser
 
 
-parser = argparse.ArgumentParser(
-        description='A simple example program to print a friendly greeting.')
-parser.add_argument('--version', action='version',
-        version='helloworld ' + helloworld.__version__)
+def hello_world():
+    print("Hello, world")
 
 
 def main(argv=None):
@@ -21,6 +18,6 @@ def main(argv=None):
     # ensures the user hasn't passed any other unrecognized arguments.
     parser.parse_args(argv[1:])
 
-    print("Hello, world")
+    hello_world()
 
     return 0
