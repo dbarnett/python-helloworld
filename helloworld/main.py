@@ -24,3 +24,5 @@ def main(argv=None):
     print("Hello, world")
 
     return 0
+
+print("gg")
