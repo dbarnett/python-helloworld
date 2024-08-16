@@ -17,8 +17,8 @@ setup(
     extras_require={},      # optional features that other packages can require
                             #   like 'helloworld[foo]'
     package_data = {"helloworld": ["VERSION.txt"]},
-    author="David Barnett",
-    author_email = "davidbarnett2@gmail.com",
+    author="A. Developer",
+    author_email = "author@example.com",
     description = "The familiar example program in Python",
     license = "Apache 2.0",
     keywords= "example documentation tutorial",
