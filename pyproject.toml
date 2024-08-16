@@ -1,0 +1,28 @@
+[build-system]
+# pyproject.toml support added in 61.0.0, but for some reason fails to process
+# this file until version 62.
+requires = ["setuptools >= 62"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "helloworld"
+# version is populated by setuptools in setup.py (from VERSION.txt)
+dynamic = ["version"]
+description = "The familiar example program in Python"
+# Newer versions of setuptools (that can detect metadata in pyproject.toml)
+# don't seem to support python 2 anymore.
+requires-python = ">= 3"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+  { name = "A. Developer", email = "author@example.com" }
+]
+keywords = ["example", "documentation", "tutorial"]
+
+[project.urls]
+Homepage = "http://github.com/dbarnett/python-helloworld"
+Repository = "http://github.com/dbarnett/python-helloworld"
+
+# command-line executables to expose
+[project.scripts]
+helloworld_in_python = "helloworld.main:main"
