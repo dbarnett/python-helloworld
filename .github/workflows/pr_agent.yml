@@ -15,7 +15,7 @@ jobs:
       - name: PR Agent action step
         uses: qodo-ai/pr-agent@main
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           config.model: ${{ secrets.GEMINI_MODEL }}
           config.fallback_models: '[${{ secrets.GEMINI_MODEL }}]'
           GOOGLE_AI_STUDIO.GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
